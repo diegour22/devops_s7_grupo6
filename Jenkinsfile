@@ -6,11 +6,12 @@ pipeline {
     }
 
     stages {
-        stage('Compilar Proyecto') {
+        stage('Compilar') {
             steps {
                 sh 'mvn clean package'
             }
         }
     }
 }
+
 
